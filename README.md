@@ -1,89 +1,76 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg" />
+  <img alt="Vibhav Yadav" src="assets/hero-light.svg" width="100%" />
+</picture>
+
 <div align="center">
-
-<!-- Terminal-style header. No gradients, no rainbows. Just signal. -->
-
-<a href="https://vibhavy.dev">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=E8B647&center=true&vCenter=true&width=620&lines=%24+whoami;%E2%9E%9C+Vibhav+Yadav+%E2%80%94+developer%2C+tinkerer%2C+coffee+%E2%9E%9C+code;%24+cat+%2Fproc%2Fself%2Fstatus;State%3A+building+%E2%80%94+please+do+not+disturb+%F0%9F%9B%A0" alt="typing intro" />
-</a>
-
+  <a href="https://vibhavy.dev"><b>vibhavy.dev</b></a>
 </div>
 
----
+<br/>
 
-```ts
-const vibhav = {
-  role:       "Full-stack dev",
-  location:   "somewhere between a terminal and a whiteboard",
-  stack:      ["TypeScript", "Python", "React", "Node", "PostgreSQL"],
-  currently:  "shipping side-projects faster than I can name them",
-  learning:   ["systems design", "the dark arts of CSS"],
-  ask_me_about: ["clean APIs", "weird bugs", "why semicolons matter"],
-  motto:      "make it work → make it right → make it fast → make it pretty",
-};
-```
+I build full-stack products end to end, with a bias toward realtime systems, clean architecture, and interfaces that feel fast. Right now I am building **GitTool**, an AI-assisted Git client, and exploring distributed systems and Elixir / LiveView.
 
-### // routes
+## Selected work
 
 <table>
   <tr>
-    <td><a href="https://vibhavy.dev"><b>~/portfolio</b></a></td>
-    <td>the long-form version of this page — projects, writing, the works</td>
+    <td valign="top"><b>Jottr</b></td>
+    <td>A collaborative workspace with CRDT-based realtime sync<br/><sub>Next.js · Yjs · Supabase</sub></td>
   </tr>
   <tr>
-    <td><a href="https://www.linkedin.com/in/vibhav-yadav/"><b>~/linkedin</b></a></td>
-    <td>the suit-and-tie one — for recruiters and old friends</td>
+    <td valign="top"><b>LibraFlow</b></td>
+    <td>A publishing platform with subscriptions and live reader chat<br/><sub>React · Node · MongoDB</sub></td>
   </tr>
   <tr>
-    <td><a href="https://www.hackerrank.com/profile/vibhavydm"><b>~/hackerrank</b></a></td>
-    <td>proof I still remember how a heap works</td>
+    <td valign="top"><b>Streamix</b></td>
+    <td>Video streaming with adaptive HLS delivery<br/><sub>React · Redis · HLS</sub></td>
   </tr>
   <tr>
-    <td><a href="https://github.com/Vibhav-y"><b>~/github</b></a></td>
-    <td>you're already here — but hey, give it a ⭐ on your way out</td>
+    <td valign="top"><b>GitTool</b></td>
+    <td>A desktop Git client with AI-assisted workflows<br/><sub>Electron · TypeScript</sub></td>
   </tr>
 </table>
 
----
+<sub>Full case studies at <a href="https://vibhavy.dev">vibhavy.dev</a>.</sub>
 
-### // the workshop
+## Toolkit
 
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-1F1F1F?style=for-the-badge&logo=typescript&logoColor=E8B647" />
-  <img src="https://img.shields.io/badge/Python-1F1F1F?style=for-the-badge&logo=python&logoColor=E8B647" />
-  <img src="https://img.shields.io/badge/React-1F1F1F?style=for-the-badge&logo=react&logoColor=E8B647" />
-  <img src="https://img.shields.io/badge/Node.js-1F1F1F?style=for-the-badge&logo=node.js&logoColor=E8B647" />
-  <img src="https://img.shields.io/badge/PostgreSQL-1F1F1F?style=for-the-badge&logo=postgresql&logoColor=E8B647" />
-  <img src="https://img.shields.io/badge/Docker-1F1F1F?style=for-the-badge&logo=docker&logoColor=E8B647" />
-  <img src="https://img.shields.io/badge/Linux-1F1F1F?style=for-the-badge&logo=linux&logoColor=E8B647" />
-  <img src="https://img.shields.io/badge/Git-1F1F1F?style=for-the-badge&logo=git&logoColor=E8B647" />
-</p>
+<table>
+  <tr><td><b>Frontend</b></td><td>React · Next.js · Tailwind · Framer Motion</td></tr>
+  <tr><td><b>Backend</b></td><td>Node · Express · Python · Socket.io</td></tr>
+  <tr><td><b>Data</b></td><td>PostgreSQL · MongoDB · Redis · Yjs</td></tr>
+  <tr><td><b>Tooling</b></td><td>Git · Docker · Vercel · Supabase</td></tr>
+</table>
 
----
+## Writing
 
-### // the receipts
+- [How CRDTs Power Real-Time Editing in Jottr](https://vibhavy.dev/blog/crdts-in-jottr)
+- [Where Should You Render? A Field Guide to Web Rendering Strategies](https://vibhavy.dev/blog/rendering-strategies)
+- [Build Log: Shipping LibraFlow to 10,000 Readers](https://vibhavy.dev/blog/libraflow-build-log)
 
-<div align="center">
+<sub>More at <a href="https://vibhavy.dev/blog">vibhavy.dev/blog</a>.</sub>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Vibhav-y&show_icons=true&hide_border=true&bg_color=0E0E10&title_color=E8B647&text_color=D7D7D7&icon_color=E8B647&include_all_commits=true&count_private=true" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vibhav-y&layout=compact&hide_border=true&bg_color=0E0E10&title_color=E8B647&text_color=D7D7D7&langs_count=8" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Vibhav-y&hide_border=true&background=0E0E10&stroke=0E0E10&ring=E8B647&fire=E8B647&currStreakLabel=E8B647&sideLabels=D7D7D7&currStreakNum=D7D7D7&sideNums=D7D7D7&dates=8A8A8A" />
-
-</div>
-
----
-
-### // the small print
-
-```bash
-$ echo "open to interesting problems and the people building them"
-$ ./contact --portfolio vibhavy.dev
-```
+## Stats
 
 <div align="center">
 
-<sub>built with too much coffee · last deploy: whenever I push next</sub>
-
-<img src="https://komarev.com/ghpvc/?username=Vibhav-y&label=visitors&color=E8B647&style=flat-square" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Vibhav-y&show_icons=true&hide_border=true&bg_color=00000000&title_color=F7790F&text_color=C9C9D1&icon_color=F7790F&include_all_commits=true&count_private=true" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Vibhav-y&show_icons=true&hide_border=true&bg_color=FFFFFF00&title_color=F7790F&text_color=334155&icon_color=F7790F&include_all_commits=true&count_private=true" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Vibhav-y&layout=compact&hide_border=true&bg_color=00000000&title_color=F7790F&text_color=C9C9D1&langs_count=8" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vibhav-y&layout=compact&hide_border=true&bg_color=FFFFFF00&title_color=F7790F&text_color=334155&langs_count=8" />
+</picture>
 
 </div>
+
+## Connect
+
+<a href="https://vibhavy.dev">Portfolio</a> &nbsp;·&nbsp;
+<a href="https://www.linkedin.com/in/vibhav-yadav/">LinkedIn</a> &nbsp;·&nbsp;
+<a href="https://leetcode.com/u/vibhav-y/">LeetCode</a> &nbsp;·&nbsp;
+<a href="https://www.hackerrank.com/profile/vibhavydm">HackerRank</a> &nbsp;·&nbsp;
+<a href="mailto:vibhavydm@gmail.com">Email</a>
